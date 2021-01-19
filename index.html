@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="master.css">
+    <title>Toboolist</title>
+  </head>
+  <body>
+
+    <!-- Logo and title -->
+    <header>
+      <div class="title">
+        <img class="logo"src="img/Logo.png" alt="logo">
+        <span>Toobolist</span>
+      </div>
+    </header>
+
+    <!-- Buttons -->
+    <main>
+      <div class="small container">
+        <div class="buttons">
+          <button class="active" type="button" name="Task">Add task</button>
+          <button class="disabled" type="button" name="Section">Add section</button>
+        </div>
+      </div>
+
+      <!-- List -->
+      <div class="big container">
+          <ul class="main-list">
+
+            <!-- First part -->
+            <li>
+              <span>New Task</span>
+              <ul class="second-list">
+                <li class="check">
+                  Quarterly Newsletter
+                  <span id="editorial">
+                    Editorial
+                  </span>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Second part -->
+            <li>
+              <span>Today</span>
+              <ul class="second-list">
+                <li class="check">
+                  Recruiting blog post
+                  <span id="editorial">
+                    Editorial
+                  </span></li>
+
+                <li class="check">
+                  Mobile app launch
+                  <span id="goals">
+                    Q1 Goals
+                  </span>
+                </li>
+
+                <li class="negative-mark">
+                  Interview John H.
+                  <span id="recruiting">
+                    Recruiting
+                  </span>
+                </li>
+
+                <li class="check">
+                  Summit update to mobile storefronts
+                  <span id="mobile">
+                    Mobile
+                  </span>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Third part -->
+            <li>
+              <span>Upcoming</span>
+              <ul class="second-list">
+                <li class="negative-mark">
+                  Schedule meeting with Alex
+                </li>
+
+                <li class="check">
+                  Homepage refresh
+                  <span id="website">
+                    Website
+                  </span>
+                </li>
+
+                <li class="check">
+                  Onboard new Sales team members
+                  <span id="sales">
+                    Sales
+                  </span>
+                </li>
+
+                <li class="check">
+                  Review editorial calendar
+                  <span id="editorial">
+                    Editorial
+                  </span>
+                </li>
+              </ul>
+            </li>
+          </ul>
+      </div>
+    </main>
+  </body>
+</html>

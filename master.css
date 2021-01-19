@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F5F5F5;
+  font-family: 'Roboto Slab', serif;
+}
+
+.title {
+  background-color: white;
+  height: 70px;
+  line-height: 70px;
+}
+
+.logo {
+  margin-left: 20px;
+  vertical-align: middle;
+}
+
+.title span {
+  font-size: 40px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: white;
+  width: 1000px;
+  margin: auto;
+}
+
+.small.container {
+  margin-top: 50px;
+}
+
+.buttons {
+  height: 60px;
+  line-height: 60px;
+}
+
+.active {
+  margin-left: 40px;
+  background-color: #49BDF3;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 12px;
+}
+
+.disabled {
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid grey;
+  color: grey;
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.big.container {
+  margin-top: 2px;
+  color: #454545;
+  height: 550px;
+}
+
+.main-list {
+  height: 100%;
+  padding: 20px 40px;
+}
+
+li {
+  margin: 15px 0;
+}
+
+.second-list {
+  margin-bottom: 30px;
+}
+
+.main-list, .second-list {
+  list-style: none;
+}
+
+.main-list > li:before {
+  content: '\25BC';
+}
+
+li > span {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.second-list .check:before {
+  content: '\2714';
+  color: green;
+  display: inline-block;
+  width: 1.5em;
+  border-radius: 50%;
+  border: 1px solid;
+  text-align: center;
+}
+
+.second-list .negative-mark:before {
+  content: '\2718';
+  color: red;
+  display: inline-block;
+  width: 1.5em;
+  border-radius: 50%;
+  border: 1px solid;
+  text-align: center;
+}
+
+#editorial, #goals, #recruiting, #mobile, #website, #sales {
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  font-size: 12px;
+}
+
+#editorial{
+  background-color: #49BDF3;
+}
+
+#goals {
+  background-color: #AF67C0;
+}
+
+#recruiting {
+  background-color: #67C083;
+}
+
+#mobile {
+  background-color: #FC9732;
+}
+
+#website {
+  background-color: #FA3491;
+}
+
+#sales {
+  background-color: #A4D632;
+}
