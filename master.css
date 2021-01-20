@@ -115,14 +115,14 @@ li > span {
   text-align: center;
 }
 
-#editorial, #goals, #recruiting, #mobile, #website, #sales {
+.editorial, #goals, #recruiting, #mobile, #website, #sales {
   border-radius: 10px;
   padding: 5px;
   color: white;
   font-size: 12px;
 }
 
-#editorial{
+.editorial{
   background-color: #49BDF3;
 }
 
